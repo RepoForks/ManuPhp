@@ -48,9 +48,17 @@ class Testcontroller extends CI_Controller
 
         $this->load->view('gcm');
     }
+    public function mar(){
+       $data= array("marquee"=>"enabled");
+       echo  json_encode($data);
+    }
 
     public function test()
     {
+
+
+
+
 
         $this->load->view('test');
     }

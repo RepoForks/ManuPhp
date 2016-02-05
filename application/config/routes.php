@@ -52,6 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['gcm/(:num)']='welcome/gcm';
 $route['gcm']='welcome/gcm';
+$route['recycler']='welcome/recycler';
 $route['test']='testcontroller';
+$route['mar']='testcontroller/mar';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
