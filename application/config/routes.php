@@ -53,7 +53,16 @@ $route['default_controller'] = 'welcome';
 $route['gcm/(:num)']='welcome/gcm';
 $route['gcm']='welcome/gcm';
 $route['recycler']='welcome/recycler';
-$route['test']='testcontroller';
+$route['getuser']='welcome/getUser';
 $route['mar']='testcontroller/mar';
+
+$route['register']='welcome/registerUser';
+$route['login']='welcome/login';
+$route['users']='welcome/getUsers';
+
+
+
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
